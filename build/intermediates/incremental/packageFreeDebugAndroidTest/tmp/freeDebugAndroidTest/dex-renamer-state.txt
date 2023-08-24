@@ -1,0 +1,10 @@
+#Sun Aug 20 08:41:54 IST 2023
+base.0=/Users/abhijithpc/Downloads/AndroidApkAnalyzer-master/app/build/intermediates/dex/freeDebugAndroidTest/mergeExtDexFreeDebugAndroidTest/classes.dex
+base.1=/Users/abhijithpc/Downloads/AndroidApkAnalyzer-master/app/build/intermediates/dex/freeDebugAndroidTest/mergeProjectDexFreeDebugAndroidTest/0/classes.dex
+base.2=/Users/abhijithpc/Downloads/AndroidApkAnalyzer-master/app/build/intermediates/dex/freeDebugAndroidTest/mergeProjectDexFreeDebugAndroidTest/2/classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=2/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

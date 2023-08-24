@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.util.TextInfo","classAnnotations":["kotlinx.parcelize.Parcelize","kotlin.jvm.internal.SourceDebugExtension"],"interfaces":["android.os.Parcelable"],"superClasses":["java.lang.Object"]}

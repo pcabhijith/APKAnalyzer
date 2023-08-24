@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.ui.permission.detail.apps.PermissionsAppListViewModel_Factory_Impl","classAnnotations":["dagger.internal.DaggerGenerated"],"interfaces":["sk.styk.martin.apkanalyzer.ui.permission.detail.apps.PermissionsAppListViewModel$Factory"],"superClasses":["java.lang.Object"]}

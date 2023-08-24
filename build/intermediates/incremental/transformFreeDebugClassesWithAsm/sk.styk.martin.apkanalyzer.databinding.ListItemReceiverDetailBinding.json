@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.databinding.ListItemReceiverDetailBinding","classAnnotations":[],"interfaces":["androidx.databinding.Observable","androidx.viewbinding.ViewBinding"],"superClasses":["androidx.databinding.ViewDataBinding","androidx.databinding.BaseObservable","java.lang.Object"]}

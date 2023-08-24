@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.manager.permission.PermissionsManagerImpl","classAnnotations":[],"interfaces":["sk.styk.martin.apkanalyzer.manager.permission.PermissionManager"],"superClasses":["androidx.lifecycle.AndroidViewModel","androidx.lifecycle.ViewModel","java.lang.Object"]}

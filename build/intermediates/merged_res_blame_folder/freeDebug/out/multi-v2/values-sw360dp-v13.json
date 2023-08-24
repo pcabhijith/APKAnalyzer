@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-59:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/abhijithpc/.gradle/caches/transforms-3/39ff87a9a67486c48f814bcb7d8dcbf5/transformed/preference-1.2.0/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                }
+            ]
+        }
+    ]
+}

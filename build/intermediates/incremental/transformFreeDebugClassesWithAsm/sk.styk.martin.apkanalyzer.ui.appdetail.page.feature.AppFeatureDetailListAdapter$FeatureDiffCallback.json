@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.ui.appdetail.page.feature.AppFeatureDetailListAdapter$FeatureDiffCallback","classAnnotations":[],"interfaces":[],"superClasses":["androidx.recyclerview.widget.DiffUtil$Callback","java.lang.Object"]}

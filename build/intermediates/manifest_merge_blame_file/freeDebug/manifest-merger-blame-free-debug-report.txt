@@ -1,0 +1,617 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="sk.styk.martin.apkanalyzer"
+4    android:versionCode="1"
+5    android:versionName="dev" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:5:5-77
+11-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:5:22-74
+12    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+12-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:6:5-8:53
+12-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:7:9-61
+13    <uses-permission
+13-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:9:5-12:40
+14        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+14-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:10:9-65
+15        android:maxSdkVersion="28" />
+15-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:11:9-35
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.firebase:firebase-perf:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/5370fb4e732d67c3c8c86f86d89bb3c2/transformed/jetified-firebase-perf-20.3.2/AndroidManifest.xml:10:5-67
+16-->[com.google.firebase:firebase-perf:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/5370fb4e732d67c3c8c86f86d89bb3c2/transformed/jetified-firebase-perf-20.3.2/AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-config:21.4.0] /Users/abhijithpc/.gradle/caches/transforms-3/02ef7de4b058f83a988f501b2725c336/transformed/jetified-firebase-config-21.4.0/AndroidManifest.xml:24:5-79
+17-->[com.google.firebase:firebase-config:21.4.0] /Users/abhijithpc/.gradle/caches/transforms-3/02ef7de4b058f83a988f501b2725c336/transformed/jetified-firebase-config-21.4.0/AndroidManifest.xml:24:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/268647463b9e3d727ca9c5ab865aaf84/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:24:5-68
+18-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/268647463b9e3d727ca9c5ab865aaf84/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+19-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/268647463b9e3d727ca9c5ab865aaf84/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:25:5-79
+19-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/268647463b9e3d727ca9c5ab865aaf84/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:25:22-76
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:26:22-107
+21
+22    <permission
+22-->[androidx.core:core:1.9.0] /Users/abhijithpc/.gradle/caches/transforms-3/1b0458591f566ba977fc6fd6d6f861cc/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+23        android:name="sk.styk.martin.apkanalyzer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.9.0] /Users/abhijithpc/.gradle/caches/transforms-3/1b0458591f566ba977fc6fd6d6f861cc/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.9.0] /Users/abhijithpc/.gradle/caches/transforms-3/1b0458591f566ba977fc6fd6d6f861cc/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="sk.styk.martin.apkanalyzer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+26-->[androidx.core:core:1.9.0] /Users/abhijithpc/.gradle/caches/transforms-3/1b0458591f566ba977fc6fd6d6f861cc/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.9.0] /Users/abhijithpc/.gradle/caches/transforms-3/1b0458591f566ba977fc6fd6d6f861cc/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+27    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- To store the heap dumps and leak analysis results. -->
+28-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:13:5-77
+28-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:13:22-74
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:25:5-80
+29-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:25:22-77
+30
+31    <application
+31-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:14:5-78:19
+32        android:name="sk.styk.martin.apkanalyzer.ApkAnalyzer"
+32-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:15:9-36
+33        android:allowBackup="true"
+33-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:16:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] /Users/abhijithpc/.gradle/caches/transforms-3/1b0458591f566ba977fc6fd6d6f861cc/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:hardwareAccelerated="true"
+36-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:17:9-43
+37        android:icon="@mipmap/ic_launcher_shrewd"
+37-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:18:9-50
+38        android:label="@string/app_name"
+38-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:19:9-41
+39        android:largeHeap="true"
+39-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:20:9-33
+40        android:supportsRtl="true"
+40-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:21:9-35
+41        android:testOnly="true"
+42        android:theme="@style/AppTheme" >
+42-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:22:9-40
+43        <activity
+43-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:24:9-33:20
+44            android:name="sk.styk.martin.apkanalyzer.ui.main.MainActivity"
+44-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:25:13-75
+45            android:exported="true"
+45-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:26:13-36
+46            android:windowSoftInputMode="adjustResize" >
+46-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:27:13-55
+47            <intent-filter>
+47-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:28:13-32:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:29:17-69
+48-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:29:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:31:17-77
+50-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:31:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:35:9-49:20
+54            android:name="sk.styk.martin.apkanalyzer.ui.appdetail.OnInstallAppDetailActivity"
+54-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:36:13-94
+55            android:exported="true" >
+55-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:37:13-36
+56            <intent-filter>
+56-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:38:13-48:29
+57                <action android:name="android.intent.action.VIEW" />
+57-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:39:17-69
+57-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:39:25-66
+58                <action android:name="android.intent.action.INSTALL_PACKAGE" />
+58-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:40:17-80
+58-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:40:25-77
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:42:17-76
+60-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:42:27-73
+61
+62                <data android:scheme="package" />
+62-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+62-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:23-47
+63                <data android:scheme="content" />
+63-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+63-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:23-47
+64                <data android:scheme="file" />
+64-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+64-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:23-47
+65                <data android:mimeType="application/vnd.android.package-archive" />
+65-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+65-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:47:23-81
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:51:9-58:20
+69            android:name="sk.styk.martin.apkanalyzer.ui.appdetail.AppDetailActivity"
+69-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:52:13-85
+70            android:label="@string/title_item_detail"
+70-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:53:13-54
+71            android:parentActivityName="sk.styk.martin.apkanalyzer.ui.main.MainActivity" >
+71-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:54:13-89
+72            <meta-data
+72-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:55:13-57:83
+73                android:name="android.support.PARENT_ACTIVITY"
+73-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:56:17-63
+74                android:value="sk.styk.martin.apkanalyzer.ui.main.MainActivity" />
+74-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:57:17-80
+75        </activity>
+76        <activity
+76-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:60:9-62:51
+77            android:name="sk.styk.martin.apkanalyzer.ui.intro.IntroActivity"
+77-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:61:13-77
+78            android:label="@string/title_intro" />
+78-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:62:13-48
+79
+80        <provider
+81            android:name="sk.styk.martin.apkanalyzer.util.file.GenericFileProvider"
+81-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:65:13-58
+82            android:authorities="sk.styk.martin.apkanalyzer"
+82-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:66:13-51
+83            android:exported="false"
+83-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:67:13-37
+84            android:grantUriPermissions="true" >
+84-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:68:13-47
+85            <meta-data
+85-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:69:13-71:58
+86                android:name="android.support.FILE_PROVIDER_PATHS"
+86-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:70:17-67
+87                android:resource="@xml/provider_paths" />
+87-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:71:17-55
+88        </provider>
+89
+90        <meta-data
+90-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:74:9-76:37
+91            android:name="google_analytics_automatic_screen_reporting_enabled"
+91-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:75:13-79
+92            android:value="false" />
+92-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:76:13-34
+93
+94        <service
+94-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/fa63b64d9e5a8669b19625399574677a/transformed/jetified-firebase-analytics-ktx-21.2.2/AndroidManifest.xml:8:9-14:19
+95            android:name="com.google.firebase.components.ComponentDiscoveryService"
+95-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/fa63b64d9e5a8669b19625399574677a/transformed/jetified-firebase-analytics-ktx-21.2.2/AndroidManifest.xml:9:13-84
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/2a0c7771fef280e7126841315f6c0894/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+97            android:exported="false" >
+97-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/fa63b64d9e5a8669b19625399574677a/transformed/jetified-firebase-analytics-ktx-21.2.2/AndroidManifest.xml:10:13-37
+98            <meta-data
+98-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/fa63b64d9e5a8669b19625399574677a/transformed/jetified-firebase-analytics-ktx-21.2.2/AndroidManifest.xml:11:13-13:85
+99                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+99-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/fa63b64d9e5a8669b19625399574677a/transformed/jetified-firebase-analytics-ktx-21.2.2/AndroidManifest.xml:12:17-126
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/fa63b64d9e5a8669b19625399574677a/transformed/jetified-firebase-analytics-ktx-21.2.2/AndroidManifest.xml:13:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-perf-ktx:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/b558c64b545bb1f3ed779042209c1cf5/transformed/jetified-firebase-perf-ktx-20.3.2/AndroidManifest.xml:14:13-16:85
+102                android:name="com.google.firebase.components:com.google.firebase.perf.ktx.FirebasePerfKtxRegistrar"
+102-->[com.google.firebase:firebase-perf-ktx:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/b558c64b545bb1f3ed779042209c1cf5/transformed/jetified-firebase-perf-ktx-20.3.2/AndroidManifest.xml:15:17-116
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-perf-ktx:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/b558c64b545bb1f3ed779042209c1cf5/transformed/jetified-firebase-perf-ktx-20.3.2/AndroidManifest.xml:16:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-crashlytics-ktx:18.3.7] /Users/abhijithpc/.gradle/caches/transforms-3/093832cddee3dfe54986b9e0dbc8c621/transformed/jetified-firebase-crashlytics-ktx-18.3.7/AndroidManifest.xml:26:13-28:85
+105                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+105-->[com.google.firebase:firebase-crashlytics-ktx:18.3.7] /Users/abhijithpc/.gradle/caches/transforms-3/093832cddee3dfe54986b9e0dbc8c621/transformed/jetified-firebase-crashlytics-ktx-18.3.7/AndroidManifest.xml:27:17-130
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-crashlytics-ktx:18.3.7] /Users/abhijithpc/.gradle/caches/transforms-3/093832cddee3dfe54986b9e0dbc8c621/transformed/jetified-firebase-crashlytics-ktx-18.3.7/AndroidManifest.xml:28:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-perf:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/5370fb4e732d67c3c8c86f86d89bb3c2/transformed/jetified-firebase-perf-20.3.2/AndroidManifest.xml:16:13-18:85
+108                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+108-->[com.google.firebase:firebase-perf:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/5370fb4e732d67c3c8c86f86d89bb3c2/transformed/jetified-firebase-perf-20.3.2/AndroidManifest.xml:17:17-109
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-perf:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/5370fb4e732d67c3c8c86f86d89bb3c2/transformed/jetified-firebase-perf-20.3.2/AndroidManifest.xml:18:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-common-ktx:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/6c289848c8420c2200822a54cbf5f36b/transformed/jetified-firebase-common-ktx-20.3.2/AndroidManifest.xml:14:13-16:85
+111                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+111-->[com.google.firebase:firebase-common-ktx:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/6c289848c8420c2200822a54cbf5f36b/transformed/jetified-firebase-common-ktx-20.3.2/AndroidManifest.xml:15:17-113
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-common-ktx:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/6c289848c8420c2200822a54cbf5f36b/transformed/jetified-firebase-common-ktx-20.3.2/AndroidManifest.xml:16:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-crashlytics:18.3.7] /Users/abhijithpc/.gradle/caches/transforms-3/bae78825c62131c6805ddf004417467c/transformed/jetified-firebase-crashlytics-18.3.7/AndroidManifest.xml:17:13-19:85
+114                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+114-->[com.google.firebase:firebase-crashlytics:18.3.7] /Users/abhijithpc/.gradle/caches/transforms-3/bae78825c62131c6805ddf004417467c/transformed/jetified-firebase-crashlytics-18.3.7/AndroidManifest.xml:18:17-115
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-crashlytics:18.3.7] /Users/abhijithpc/.gradle/caches/transforms-3/bae78825c62131c6805ddf004417467c/transformed/jetified-firebase-crashlytics-18.3.7/AndroidManifest.xml:19:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/abhijithpc/.gradle/caches/transforms-3/43268ae6c14ecef6903f4b7694553601/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
+117                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+117-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/abhijithpc/.gradle/caches/transforms-3/43268ae6c14ecef6903f4b7694553601/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/abhijithpc/.gradle/caches/transforms-3/43268ae6c14ecef6903f4b7694553601/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-config:21.4.0] /Users/abhijithpc/.gradle/caches/transforms-3/02ef7de4b058f83a988f501b2725c336/transformed/jetified-firebase-config-21.4.0/AndroidManifest.xml:31:13-33:85
+120                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+120-->[com.google.firebase:firebase-config:21.4.0] /Users/abhijithpc/.gradle/caches/transforms-3/02ef7de4b058f83a988f501b2725c336/transformed/jetified-firebase-config-21.4.0/AndroidManifest.xml:32:17-117
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-config:21.4.0] /Users/abhijithpc/.gradle/caches/transforms-3/02ef7de4b058f83a988f501b2725c336/transformed/jetified-firebase-config-21.4.0/AndroidManifest.xml:33:17-82
+122            <meta-data
+122-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/268647463b9e3d727ca9c5ab865aaf84/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:31:13-33:85
+123                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+123-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/268647463b9e3d727ca9c5ab865aaf84/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:32:17-139
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/268647463b9e3d727ca9c5ab865aaf84/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:33:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-installations:17.1.3] /Users/abhijithpc/.gradle/caches/transforms-3/5c38f0f14be93dbfc35539edffffc9c6/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+126                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+126-->[com.google.firebase:firebase-installations:17.1.3] /Users/abhijithpc/.gradle/caches/transforms-3/5c38f0f14be93dbfc35539edffffc9c6/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-installations:17.1.3] /Users/abhijithpc/.gradle/caches/transforms-3/5c38f0f14be93dbfc35539edffffc9c6/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-abt:21.1.1] /Users/abhijithpc/.gradle/caches/transforms-3/eb0aba4f173f52b2fac056ad7cb9e384/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+129                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+129-->[com.google.firebase:firebase-abt:21.1.1] /Users/abhijithpc/.gradle/caches/transforms-3/eb0aba4f173f52b2fac056ad7cb9e384/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-abt:21.1.1] /Users/abhijithpc/.gradle/caches/transforms-3/eb0aba4f173f52b2fac056ad7cb9e384/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+131        </service>
+132
+133        <provider
+133-->[com.google.firebase:firebase-common:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/2a0c7771fef280e7126841315f6c0894/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+134            android:name="com.google.firebase.provider.FirebaseInitProvider"
+134-->[com.google.firebase:firebase-common:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/2a0c7771fef280e7126841315f6c0894/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+135            android:authorities="sk.styk.martin.apkanalyzer.firebaseinitprovider"
+135-->[com.google.firebase:firebase-common:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/2a0c7771fef280e7126841315f6c0894/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+136            android:directBootAware="true"
+136-->[com.google.firebase:firebase-common:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/2a0c7771fef280e7126841315f6c0894/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+137            android:exported="false"
+137-->[com.google.firebase:firebase-common:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/2a0c7771fef280e7126841315f6c0894/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+138            android:initOrder="100" />
+138-->[com.google.firebase:firebase-common:20.3.2] /Users/abhijithpc/.gradle/caches/transforms-3/2a0c7771fef280e7126841315f6c0894/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+139
+140        <receiver
+140-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:29:9-33:20
+141            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+141-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:30:13-85
+142            android:enabled="true"
+142-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:31:13-35
+143            android:exported="false" >
+143-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:32:13-37
+144        </receiver>
+145
+146        <service
+146-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:35:9-38:40
+147            android:name="com.google.android.gms.measurement.AppMeasurementService"
+147-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:36:13-84
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:37:13-35
+149            android:exported="false" />
+149-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:38:13-37
+150        <service
+150-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:39:9-43:72
+151            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+151-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:40:13-87
+152            android:enabled="true"
+152-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:41:13-35
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:42:13-37
+154            android:permission="android.permission.BIND_JOB_SERVICE" />
+154-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/abhijithpc/.gradle/caches/transforms-3/c27ab39ba85d39dcb23db684652f0496/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:43:13-69
+155
+156        <meta-data
+156-->[com.google.android.gms:play-services-basement:18.1.0] /Users/abhijithpc/.gradle/caches/transforms-3/52f6e92f8449c0e282a5db2b565c051a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+157            android:name="com.google.android.gms.version"
+157-->[com.google.android.gms:play-services-basement:18.1.0] /Users/abhijithpc/.gradle/caches/transforms-3/52f6e92f8449c0e282a5db2b565c051a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+158            android:value="@integer/google_play_services_version" />
+158-->[com.google.android.gms:play-services-basement:18.1.0] /Users/abhijithpc/.gradle/caches/transforms-3/52f6e92f8449c0e282a5db2b565c051a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+159
+160        <provider
+160-->[androidx.emoji2:emoji2:1.2.0] /Users/abhijithpc/.gradle/caches/transforms-3/15d09cc7a27946d7aa5ff83b0a574481/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+161            android:name="androidx.startup.InitializationProvider"
+161-->[androidx.emoji2:emoji2:1.2.0] /Users/abhijithpc/.gradle/caches/transforms-3/15d09cc7a27946d7aa5ff83b0a574481/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+162            android:authorities="sk.styk.martin.apkanalyzer.androidx-startup"
+162-->[androidx.emoji2:emoji2:1.2.0] /Users/abhijithpc/.gradle/caches/transforms-3/15d09cc7a27946d7aa5ff83b0a574481/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+163            android:exported="false" >
+163-->[androidx.emoji2:emoji2:1.2.0] /Users/abhijithpc/.gradle/caches/transforms-3/15d09cc7a27946d7aa5ff83b0a574481/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+164            <meta-data
+164-->[androidx.emoji2:emoji2:1.2.0] /Users/abhijithpc/.gradle/caches/transforms-3/15d09cc7a27946d7aa5ff83b0a574481/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+165                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+165-->[androidx.emoji2:emoji2:1.2.0] /Users/abhijithpc/.gradle/caches/transforms-3/15d09cc7a27946d7aa5ff83b0a574481/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+166                android:value="androidx.startup" />
+166-->[androidx.emoji2:emoji2:1.2.0] /Users/abhijithpc/.gradle/caches/transforms-3/15d09cc7a27946d7aa5ff83b0a574481/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+167            <meta-data
+167-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/abhijithpc/.gradle/caches/transforms-3/5bb18776837f1c663cfb66aaea13017c/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+168                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+168-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/abhijithpc/.gradle/caches/transforms-3/5bb18776837f1c663cfb66aaea13017c/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+169                android:value="androidx.startup" />
+169-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/abhijithpc/.gradle/caches/transforms-3/5bb18776837f1c663cfb66aaea13017c/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+170            <meta-data
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+171                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+172                android:value="androidx.startup" />
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+173        </provider>
+174
+175        <uses-library
+175-->[androidx.window:window:1.0.0] /Users/abhijithpc/.gradle/caches/transforms-3/32a16a4c67d31c91680c383e38b25392/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+176            android:name="androidx.window.extensions"
+176-->[androidx.window:window:1.0.0] /Users/abhijithpc/.gradle/caches/transforms-3/32a16a4c67d31c91680c383e38b25392/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+177            android:required="false" />
+177-->[androidx.window:window:1.0.0] /Users/abhijithpc/.gradle/caches/transforms-3/32a16a4c67d31c91680c383e38b25392/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+178        <uses-library
+178-->[androidx.window:window:1.0.0] /Users/abhijithpc/.gradle/caches/transforms-3/32a16a4c67d31c91680c383e38b25392/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+179            android:name="androidx.window.sidecar"
+179-->[androidx.window:window:1.0.0] /Users/abhijithpc/.gradle/caches/transforms-3/32a16a4c67d31c91680c383e38b25392/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+180            android:required="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+180-->[androidx.window:window:1.0.0] /Users/abhijithpc/.gradle/caches/transforms-3/32a16a4c67d31c91680c383e38b25392/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+181        <activity
+181-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:18:9-24:45
+182            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+182-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:19:13-100
+183            android:enabled="false"
+183-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:20:13-36
+184            android:exported="false"
+184-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:21:13-37
+185            android:launchMode="singleInstance"
+185-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:22:13-48
+186            android:process=":playcore_missing_splits_activity"
+186-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:23:13-64
+187            android:stateNotNeeded="true" />
+187-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:24:13-42
+188        <activity
+188-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:25:9-29:65
+189            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+189-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:26:13-93
+190            android:exported="false"
+190-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:27:13-37
+191            android:stateNotNeeded="true"
+191-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:28:13-42
+192            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+192-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:29:13-62
+193        <service
+193-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:32:9-39:19
+194            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+194-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:33:13-94
+195            android:enabled="false"
+195-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:34:13-36
+196            android:exported="true" >
+196-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:35:13-36
+197            <meta-data
+197-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:36:13-38:41
+198                android:name="com.google.android.play.core.assetpacks.versionCode"
+198-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:37:17-83
+199                android:value="11003" />
+199-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:38:17-38
+200        </service>
+201        <service
+201-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:40:9-43:40
+202            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+202-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:41:13-95
+203            android:enabled="false"
+203-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:42:13-36
+204            android:exported="false" />
+204-->[com.google.android.play:core:1.10.3] /Users/abhijithpc/.gradle/caches/transforms-3/0284178cf0eec69322318ad5bec95461/transformed/jetified-core-1.10.3/AndroidManifest.xml:43:13-37
+205
+206        <receiver
+206-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+207            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+207-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+208            android:directBootAware="false"
+208-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+209            android:enabled="true"
+209-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+210            android:exported="true"
+210-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+211            android:permission="android.permission.DUMP" >
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+212            <intent-filter>
+212-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+213                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+214            </intent-filter>
+215            <intent-filter>
+215-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+216                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+216-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+216-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+217            </intent-filter>
+218            <intent-filter>
+218-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+219                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+219-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+219-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+220            </intent-filter>
+221            <intent-filter>
+221-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+222                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+222-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+222-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/abhijithpc/.gradle/caches/transforms-3/6b4483f981eb710c7f2444a626cb92cc/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+223            </intent-filter>
+224        </receiver>
+225
+226        <service
+226-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/787dfd79c31f98f5450eac72f239382c/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+227            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+227-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/787dfd79c31f98f5450eac72f239382c/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+228            android:exported="false" >
+228-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/787dfd79c31f98f5450eac72f239382c/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+229            <meta-data
+229-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/787dfd79c31f98f5450eac72f239382c/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+230                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+230-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/787dfd79c31f98f5450eac72f239382c/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+231                android:value="cct" />
+231-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/787dfd79c31f98f5450eac72f239382c/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+232        </service>
+233        <service
+233-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/b490436a6833e76eed4990926d1e35b0/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+234            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+234-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/b490436a6833e76eed4990926d1e35b0/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+235            android:exported="false"
+235-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/b490436a6833e76eed4990926d1e35b0/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+236            android:permission="android.permission.BIND_JOB_SERVICE" >
+236-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/b490436a6833e76eed4990926d1e35b0/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+237        </service>
+238
+239        <receiver
+239-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/b490436a6833e76eed4990926d1e35b0/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+240            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+240-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/b490436a6833e76eed4990926d1e35b0/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+241            android:exported="false" />
+241-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/abhijithpc/.gradle/caches/transforms-3/b490436a6833e76eed4990926d1e35b0/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+242
+243        <provider
+243-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:31:9-39:20
+244            android:name="leakcanary.internal.LeakCanaryFileProvider"
+244-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:32:13-70
+245            android:authorities="com.squareup.leakcanary.fileprovider.sk.styk.martin.apkanalyzer"
+245-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:33:13-88
+246            android:exported="false"
+246-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:34:13-37
+247            android:grantUriPermissions="true" >
+247-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:35:13-47
+248            <meta-data
+248-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:69:13-71:58
+249                android:name="android.support.FILE_PROVIDER_PATHS"
+249-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:70:17-67
+250                android:resource="@xml/leak_canary_file_paths" />
+250-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:71:17-55
+251        </provider>
+252
+253        <activity
+253-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:41:9-72:20
+254            android:name="leakcanary.internal.activity.LeakActivity"
+254-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:42:13-69
+255            android:exported="true"
+255-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:43:13-36
+256            android:icon="@mipmap/leak_canary_icon"
+256-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:44:13-52
+257            android:label="@string/leak_canary_display_activity_label"
+257-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:45:13-71
+258            android:taskAffinity="com.squareup.leakcanary.sk.styk.martin.apkanalyzer"
+258-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:46:13-76
+259            android:theme="@style/leak_canary_LeakCanary.Base" >
+259-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:47:13-63
+260            <intent-filter android:label="@string/leak_canary_import_hprof_file" >
+260-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:48:13-71:29
+260-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:48:28-81
+261                <action android:name="android.intent.action.VIEW" />
+261-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:39:17-69
+261-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:39:25-66
+262
+263                <category android:name="android.intent.category.DEFAULT" />
+263-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:42:17-76
+263-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:42:27-73
+264                <category android:name="android.intent.category.BROWSABLE" />
+264-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:52:17-78
+264-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:52:27-75
+265
+266                <data android:scheme="file" />
+266-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+266-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:23-47
+267                <data android:scheme="content" />
+267-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+267-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:23-47
+268                <data android:mimeType="*/*" />
+268-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+268-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:47:23-81
+269                <data android:host="*" />
+269-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+270                <data android:pathPattern=".*\\.hprof" />
+270-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+271                <data android:pathPattern=".*\\..*\\.hprof" />
+271-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+272                <data android:pathPattern=".*\\..*\\..*\\.hprof" />
+272-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+273                <data android:pathPattern=".*\\..*\\..*\\..*\\.hprof" />
+273-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+274                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.hprof" />
+274-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+275                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+275-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+276                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+276-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:44:17-50
+277                <!--
+278            Since hprof isn't a standard MIME type, we have to declare such patterns.
+279            Most file providers will generate URIs including their own package name,
+280            which contains `.` characters that must be explicitly escaped in pathPattern.
+281            @see https://stackoverflow.com/a/31028507/703646
+282                -->
+283            </intent-filter>
+284        </activity>
+285
+286        <activity-alias
+286-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:74:9-91:26
+287            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+287-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:75:13-77
+288            android:banner="@drawable/leak_canary_tv_icon"
+288-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:76:13-59
+289            android:enabled="@bool/leak_canary_add_launcher_icon"
+289-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:77:13-66
+290            android:exported="true"
+290-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:78:13-36
+291            android:icon="@mipmap/leak_canary_icon"
+291-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:79:13-52
+292            android:label="@string/leak_canary_display_activity_label"
+292-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:80:13-71
+293            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+293-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:81:13-79
+294            android:taskAffinity="com.squareup.leakcanary.sk.styk.martin.apkanalyzer"
+294-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:82:13-76
+295            android:theme="@style/leak_canary_LeakCanary.Base" >
+295-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:83:13-63
+296            <intent-filter>
+296-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:84:13-90:29
+297                <action android:name="android.intent.action.MAIN" />
+297-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:29:17-69
+297-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:29:25-66
+298
+299                <category android:name="android.intent.category.LAUNCHER" />
+299-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:31:17-77
+299-->/Users/abhijithpc/Desktop/AndroidApkAnalyzer-master/app/src/main/AndroidManifest.xml:31:27-74
+300                <!-- Android TV launcher intent -->
+301                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+301-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:89:17-86
+301-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:89:27-83
+302            </intent-filter>
+303        </activity-alias>
+304
+305        <activity
+305-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:93:9-99:68
+306            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+306-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:94:13-80
+307            android:excludeFromRecents="true"
+307-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:95:13-46
+308            android:icon="@mipmap/leak_canary_icon"
+308-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:96:13-52
+309            android:label="@string/leak_canary_storage_permission_activity_label"
+309-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:97:13-82
+310            android:taskAffinity="com.squareup.leakcanary.sk.styk.martin.apkanalyzer"
+310-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:98:13-76
+311            android:theme="@style/leak_canary_Theme.Transparent" />
+311-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:99:13-65
+312
+313        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+313-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:101:9-77
+313-->[com.squareup.leakcanary:leakcanary-android-core:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/e41d5b915051c44140fb8d37043653e0/transformed/jetified-leakcanary-android-core-2.9.1/AndroidManifest.xml:101:19-74
+314
+315        <provider
+315-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/2bb1a6ac25830fdd61fdd43b25064aa7/transformed/jetified-leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:8:9-12:40
+316            android:name="leakcanary.internal.MainProcessAppWatcherInstaller"
+316-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/2bb1a6ac25830fdd61fdd43b25064aa7/transformed/jetified-leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:9:13-78
+317            android:authorities="sk.styk.martin.apkanalyzer.leakcanary-installer"
+317-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/2bb1a6ac25830fdd61fdd43b25064aa7/transformed/jetified-leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:10:13-72
+318            android:enabled="@bool/leak_canary_watcher_auto_install"
+318-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/2bb1a6ac25830fdd61fdd43b25064aa7/transformed/jetified-leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:11:13-69
+319            android:exported="false" />
+319-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/2bb1a6ac25830fdd61fdd43b25064aa7/transformed/jetified-leakcanary-object-watcher-android-2.9.1/AndroidManifest.xml:12:13-37
+320        <provider
+320-->[com.squareup.leakcanary:plumber-android:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/068f01103d75018f79eca3dcf32a4786/transformed/jetified-plumber-android-2.9.1/AndroidManifest.xml:8:9-12:40
+321            android:name="leakcanary.internal.PlumberInstaller"
+321-->[com.squareup.leakcanary:plumber-android:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/068f01103d75018f79eca3dcf32a4786/transformed/jetified-plumber-android-2.9.1/AndroidManifest.xml:9:13-64
+322            android:authorities="sk.styk.martin.apkanalyzer.plumber-installer"
+322-->[com.squareup.leakcanary:plumber-android:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/068f01103d75018f79eca3dcf32a4786/transformed/jetified-plumber-android-2.9.1/AndroidManifest.xml:10:13-69
+323            android:enabled="@bool/leak_canary_plumber_auto_install"
+323-->[com.squareup.leakcanary:plumber-android:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/068f01103d75018f79eca3dcf32a4786/transformed/jetified-plumber-android-2.9.1/AndroidManifest.xml:11:13-69
+324            android:exported="false" />
+324-->[com.squareup.leakcanary:plumber-android:2.9.1] /Users/abhijithpc/.gradle/caches/transforms-3/068f01103d75018f79eca3dcf32a4786/transformed/jetified-plumber-android-2.9.1/AndroidManifest.xml:12:13-37
+325    </application>
+326
+327</manifest>

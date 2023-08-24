@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_provider_detail.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_provider_detail.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/dialog_fancy.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/dialog_fancy.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_permission_app_list.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_permission_app_list.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/view_loading_bar.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/view_loading_bar.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_permission_detail_general.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_permission_detail_general.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_receiver_detail_expanded.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_receiver_detail_expanded.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_detail.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_detail.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_fab_menu.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_fab_menu.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_simple_string.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_simple_string.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_receiver_detail.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_receiver_detail.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_app_permission_detail.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_app_permission_detail.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_statistics.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_statistics.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/view_detail_list_item.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/view_detail_list_item.xml"
+    },
+    {
+        "merged": "sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_about.xml",
+        "source": "sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_about.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_app_detail_page.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_app_detail_page.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_permission_local_data.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_permission_local_data.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/view_math_statistics_card.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/view_math_statistics_card.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_permission_detail.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_permission_detail.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_settings.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/view_chart_marker.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/view_chart_marker.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_about.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_about.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_activity_detail_expanded.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_activity_detail_expanded.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/dialog_app_list.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/dialog_app_list.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_premium.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_premium.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_provider_detail_expanded.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_provider_detail_expanded.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/nav_header_main.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/activity_app_detail.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/activity_app_detail.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/view_floating_action_button.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/view_floating_action_button.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_activity_detail.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_activity_detail.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_app_detail.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_app_detail.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/activity_main.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_permission_list.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_permission_list.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_service_detail_expanded.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_service_detail_expanded.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_feature_detail.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_feature_detail.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_main_app_list.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_main_app_list.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_service_detail.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_service_detail.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/fragment_manifest.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/fragment_manifest.xml"
+    },
+    {
+        "merged": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-mergeFreeDebugResources-60:/layout/list_item_application.xml",
+        "source": "/Users/abhijithpc/.gradle/daemon/8.0/sk.styk.martin.apkanalyzer.app-main-65:/layout/list_item_application.xml"
+    }
+]

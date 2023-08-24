@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.util.file.GenericFileProvider","classAnnotations":[],"interfaces":["android.content.ComponentCallbacks","android.content.ComponentCallbacks2"],"superClasses":["androidx.core.content.FileProvider","android.content.ContentProvider","java.lang.Object"]}

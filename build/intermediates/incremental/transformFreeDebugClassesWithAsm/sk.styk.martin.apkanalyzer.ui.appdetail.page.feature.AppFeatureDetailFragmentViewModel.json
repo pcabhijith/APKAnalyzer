@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.ui.appdetail.page.feature.AppFeatureDetailFragmentViewModel","classAnnotations":[],"interfaces":["androidx.lifecycle.DefaultLifecycleObserver","androidx.lifecycle.LifecycleObserver"],"superClasses":["sk.styk.martin.apkanalyzer.ui.appdetail.page.AppDetailPageFragmentViewModel","androidx.lifecycle.ViewModel","java.lang.Object"]}

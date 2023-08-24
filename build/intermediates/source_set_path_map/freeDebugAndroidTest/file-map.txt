@@ -1,0 +1,4 @@
+sk.styk.martin.apkanalyzer.test.app-free-0 /Users/abhijithpc/Downloads/AndroidApkAnalyzer-master/app/build/generated/res/resValues/androidTest/free/debug
+sk.styk.martin.apkanalyzer.test.app-mergeFreeDebugAndroidTestResources-1 /Users/abhijithpc/Downloads/AndroidApkAnalyzer-master/app/build/intermediates/incremental/freeDebugAndroidTest/mergeFreeDebugAndroidTestResources/merged.dir
+sk.styk.martin.apkanalyzer.test.app-mergeFreeDebugAndroidTestResources-2 /Users/abhijithpc/Downloads/AndroidApkAnalyzer-master/app/build/intermediates/incremental/freeDebugAndroidTest/mergeFreeDebugAndroidTestResources/stripped.dir
+sk.styk.martin.apkanalyzer.test.app-merged_res-3 /Users/abhijithpc/Downloads/AndroidApkAnalyzer-master/app/build/intermediates/merged_res/freeDebugAndroidTest

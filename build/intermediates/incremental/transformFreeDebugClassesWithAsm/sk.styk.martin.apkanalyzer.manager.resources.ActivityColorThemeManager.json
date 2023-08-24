@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.manager.resources.ActivityColorThemeManager","classAnnotations":[],"interfaces":["sk.styk.martin.apkanalyzer.manager.resources.ColorThemeManager"],"superClasses":["androidx.lifecycle.ViewModel","java.lang.Object"]}

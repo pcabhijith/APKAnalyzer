@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.DaggerApkAnalyzer_HiltComponents_SingletonC$ServiceCBuilder","classAnnotations":[],"interfaces":["dagger.hilt.android.internal.builders.ServiceComponentBuilder","sk.styk.martin.apkanalyzer.ApkAnalyzer_HiltComponents$ServiceC$Builder"],"superClasses":["java.lang.Object"]}

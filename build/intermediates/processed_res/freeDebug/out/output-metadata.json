@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "sk.styk.martin.apkanalyzer",
+  "variantName": "freeDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "dev",
+      "outputFile": "resources-freeDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

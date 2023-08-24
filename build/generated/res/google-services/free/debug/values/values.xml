@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">866557274900-nd5ao5kh2f4fv0m7q4sm7hrei283t5mc.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">866557274900</string>
+    <string name="google_api_key" translatable="false">AIzaSyCR036hmc27JSUQ6wBqIPhInSFtCB_QxZE</string>
+    <string name="google_app_id" translatable="false">1:866557274900:android:ea0c5cb12303392d917001</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCR036hmc27JSUQ6wBqIPhInSFtCB_QxZE</string>
+    <string name="google_storage_bucket" translatable="false">androidapkanalyzer-dbabf.appspot.com</string>
+    <string name="project_id" translatable="false">androidapkanalyzer-dbabf</string>
+</resources>

@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.ui.premium.PremiumFragmentViewModel","classAnnotations":["dagger.hilt.android.lifecycle.HiltViewModel"],"interfaces":[],"superClasses":["androidx.lifecycle.ViewModel","java.lang.Object"]}

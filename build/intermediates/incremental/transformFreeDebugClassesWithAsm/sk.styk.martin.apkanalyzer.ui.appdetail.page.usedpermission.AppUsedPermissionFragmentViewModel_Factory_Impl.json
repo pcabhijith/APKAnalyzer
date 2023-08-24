@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.ui.appdetail.page.usedpermission.AppUsedPermissionFragmentViewModel_Factory_Impl","classAnnotations":["dagger.internal.DaggerGenerated"],"interfaces":["sk.styk.martin.apkanalyzer.ui.appdetail.page.usedpermission.AppUsedPermissionFragmentViewModel$Factory"],"superClasses":["java.lang.Object"]}

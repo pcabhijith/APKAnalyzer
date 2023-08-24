@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.ui.statistics.StatisticsFragmentViewModel","classAnnotations":["dagger.hilt.android.lifecycle.HiltViewModel"],"interfaces":["androidx.appcompat.widget.Toolbar$OnMenuItemClickListener"],"superClasses":["androidx.lifecycle.ViewModel","java.lang.Object"]}

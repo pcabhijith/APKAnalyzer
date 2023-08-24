@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "866557274900",
+    "project_id": "androidapkanalyzer-dbabf",
+    "storage_bucket": "androidapkanalyzer-dbabf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866557274900:android:ea0c5cb12303392d917001",
+        "android_client_info": {
+          "package_name": "sk.styk.martin.apkanalyzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866557274900-nd5ao5kh2f4fv0m7q4sm7hrei283t5mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR036hmc27JSUQ6wBqIPhInSFtCB_QxZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866557274900-nd5ao5kh2f4fv0m7q4sm7hrei283t5mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.util.live.SingleLiveEvent","classAnnotations":[],"interfaces":[],"superClasses":["androidx.lifecycle.MutableLiveData","androidx.lifecycle.LiveData","java.lang.Object"]}

@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.databinding.ActivityMainBindingImpl","classAnnotations":[],"interfaces":["androidx.databinding.Observable","androidx.viewbinding.ViewBinding"],"superClasses":["sk.styk.martin.apkanalyzer.databinding.ActivityMainBinding","androidx.databinding.ViewDataBinding","androidx.databinding.BaseObservable","java.lang.Object"]}

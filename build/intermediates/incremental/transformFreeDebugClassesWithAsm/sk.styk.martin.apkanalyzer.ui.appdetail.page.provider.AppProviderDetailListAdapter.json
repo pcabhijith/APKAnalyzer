@@ -1,0 +1,1 @@
+{"className":"sk.styk.martin.apkanalyzer.ui.appdetail.page.provider.AppProviderDetailListAdapter","classAnnotations":[],"interfaces":[],"superClasses":["sk.styk.martin.apkanalyzer.ui.appdetail.page.DetailInfoDescriptionAdapter","androidx.recyclerview.widget.RecyclerView$Adapter","java.lang.Object"]}
